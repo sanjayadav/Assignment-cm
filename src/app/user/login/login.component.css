@@ -1,0 +1,59 @@
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+  }
+.container-fluid{
+    height: 100vh;
+}
+.my-img{
+    padding:30%;
+}
+.bg-grey{
+    background:rgb(3, 49, 76);
+}
+.col-md-6{
+    margin-top:-5%;
+}
+.card-signin {
+    border: 0;
+    border-radius: 0.2rem;
+    box-shadow: 0 0.8rem 1rem 0 rgb(1, 15, 22);
+}
+
+.card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.card-signin {
+    padding: 2rem;
+}
+.card-body{
+    padding:2rem;
+}
+
+.form-signin {
+    width: 100%;
+}
+
+.form-signin .btn {
+    font-size: 80%;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+    width: 70%;
+}
+
+.form-group input{
+    border-radius:2rem;
+}
+
+.form-control{
+    height: auto;
+    padding: 0.8rem 1.5rem;
+}
+.custom-control{
+    padding-left: 2rem;
+}

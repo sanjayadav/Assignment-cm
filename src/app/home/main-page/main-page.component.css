@@ -1,0 +1,38 @@
+.container-fluid{
+  height: 100vh;
+}
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+}
+.bg-grey{
+    background:rgb(3, 49, 76);
+}
+h1{
+    color: white;
+    margin-bottom:10%;
+    margin-top: 5%;
+}
+.add-todo-form{
+    margin-bottom: 10%;
+}
+.form-inline .form-control{
+    width: 80% !important;
+}
+.card{
+    padding: 5%;
+    height: 250px;
+    overflow-y: scroll;
+}
+.form-inline{
+    margin-bottom: 5%;
+}
+.all-todos{
+    margin-bottom: 5%;
+}
+.todo-list-heading{
+    margin-bottom: 7%;
+}
+a:not([href]):not([tabindex]){
+    color: white;
+}
